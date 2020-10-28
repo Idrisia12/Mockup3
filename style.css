@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Containers */
+.container {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  max-width: 1000px;
+  padding-top: 10%;
+  margin: auto;
+}
+
+/* Word*/
+.word{
+  padding: 16% 0;
+  width: 85%;
+  font-size: 14px;
+}
+
+.word h1{
+  font-weight: 700;
+  font-size: 35px;
+  width: 400px;
+}
+
+/* Top Box */
+.free {
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 15px;
+  box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.3);
+  margin: auto 0 20px 0;
+}
+.free strong {
+  font-weight: 600;
+}
+.free p {
+  font-weight: 400;
+  margin: auto;
+  padding: 15px 0;
+}
+
+/* Input and Form*/
+.signup {
+  text-align: center;
+  max-width: 90%;
+}
+
+.signup-box {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.1);
+}
+
+.form {
+	padding: 10px 40px;
+}
+
+.form-control {
+	padding-bottom: 10px;
+	position: relative;
+  font-size: 10px;
+}
+
+.form-control input {
+	border: 1px solid hsl(246, 25%, 77%);
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+  margin-top: 12px;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: hsl(154, 59%, 45%);
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control img {
+	visibility: hidden;
+	position: absolute;
+}
+
+.form-control.error img {
+	visibility: visible;
+  margin-bottom: 100px;
+  top: 10px;
+  right: 10px;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+/*Terms and Button*/
+button {
+  font-weight: 700;
+  margin-top: 15px;
+  color: #fff;
+  background-color: hsl(154, 59%, 45%);
+  height: 40px;
+  width: 82%;
+  border-radius: 5px;
+  border: 1px solid hsl(246, 25%, 77%);
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.4);
+  outline: none;
+}
+button:hover {
+  background-color: hsl(154, 59%, 51%);
+}
+
+.terms {
+  color: hsl(246, 25%, 77%);
+  font-size: 10px;
+  font-weight: lighter;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
